@@ -1,0 +1,25 @@
+.DS_Store
+node_modules/
+/dist/
+/src/scripts
+/src/dist
+/build/dist
+/src/locale/dist
+/src/routes/routers/dist
+/src/modules/Person/modules/Theme/dist
+/src/routes/routers/index.local.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+.history
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.VSCodeCounter
+
+mockUtils.js

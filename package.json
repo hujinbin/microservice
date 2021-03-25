@@ -7,7 +7,8 @@
   },
   "dependencies": {
     "qiankun": "^2.4.0",
-    "vue": "^3.0.4"
+    "vue": "^3.0.4",
+    "vue-router": "^3.5.1"
   },
   "devDependencies": {
     "vite": "^1.0.0-rc.13",
