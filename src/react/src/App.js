@@ -18,6 +18,11 @@ function App() {
           Learn React
         </a>
       </header>
+      <p>
+      <a href="/vue">vue子应用</a>
+      <a href="/react">react子应用</a>
+      <a href="/angular">angular子应用</a>
+      </p>
     </div>
   );
 }

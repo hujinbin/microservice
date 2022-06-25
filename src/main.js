@@ -33,7 +33,7 @@ registerMicroApps([{
   },
   {
     name: 'angular app', // app name registered
-    entry: '//localhost:3032/',
+    entry: '//localhost:4200/',
     container: '#app',
     activeRule: genActiveRule('/angular'),
   },
