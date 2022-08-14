@@ -27,7 +27,7 @@ registerMicroApps([{
   },
   {
     name: 'react app', // app name registered
-    entry: '//localhost:3001/',
+    entry: '//localhost:3000/',
     container: '#app',
     activeRule: genActiveRule('/react'),
   },
