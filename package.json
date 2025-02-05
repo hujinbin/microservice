@@ -6,7 +6,10 @@
     "devall": "npm-run-all --parallel dev dev:*",
     "dev:angular": "cd src/angular && npm run dev",
     "dev:react": "cd src/react && npm run dev",
-    "build": "vite build"
+    "build": "vite build",
+    "buildall": "npm-run-all --parallel build build:*",
+    "build:angular": "cd src/angular && npm run build",
+    "build:react": "cd src/react && npm run build"
   },
   "dependencies": {
     "qiankun": "^2.4.0",
