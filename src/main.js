@@ -20,11 +20,7 @@ function genActiveRule(routerPrefix) {
 
 createApp(App).mount('#app')
 
-registerMicroApps([{
-    name: 'vue app',
-    container: '#app',
-    activeRule: genActiveRule('/'),
-  },
+registerMicroApps([
   {
     name: 'react app', // app name registered
     entry: '//localhost:3000/',

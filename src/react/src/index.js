@@ -10,7 +10,7 @@ ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-  document.getElementById('app')
+  document.getElementById('root')
 );
 
 function render(props) {
@@ -18,7 +18,7 @@ function render(props) {
   ReactDOM.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>, container ? container.querySelector('#app') : document.querySelector('#app'));
+  </React.StrictMode>, container ? container.querySelector('#root') : document.querySelector('#root'));
 }
 
 if (!window.__POWERED_BY_QIANKUN__) {
